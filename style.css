@@ -10,26 +10,47 @@
 }
 .navbar{
     font-family: "Signika Negative" ,sans-serif;
-    background-color: rgb(205, 154, 253);
+    background-color: rgb(255, 255, 255);
     width: 100%;
     height: 70px;
+    display: flex;
+    justify-content: space-around;
 }
 a{
     text-decoration: none;
     color: black;
 }
-.exper{
-    margin-left: 51%;
-    margin-top: -20px;
+
+
+.center{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 30px;
+
+
 }
-.exper :hover{
-    background-color: rgba(223, 223, 223, 0.829);
-    /* padding: 15px; */
+
+.expr{
+    padding: 15px;
     border-radius: 20px;
 }
-.stays{
-    margin-left: 47%;
-    margin-top: -50px;
-    /* color: rgb(201, 198, 198); */
+.expr:hover{
+    background-color:rgb(216, 215, 215);
+    padding: 15px;
+    color: rgb(0, 0, 0);
+}
 
+
+.rightsection{
+    display: flex;
+}
+.usermain{
+    border: 2px solid black;
+    height: 50px;
+    border-radius: 30px;
+    width: 100px;
+}
+.rightsection img{
+    width: 20px;
 }
