@@ -41,16 +41,34 @@ a{
     height: 30px;
     margin-left: 50px;
 }
-a :hover{
-    background-color: azure;
+
+.anse{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: 2px solid black;
+    width: 55%;
+    border-radius: 30px;
+    margin: auto;
+    height: 60px;
+    margin-bottom: 20px;
+    align-items: center;
+
 }
 .a1{
    
-    padding: 50px;
-    justify-content: space-around;
+    /* padding: 50px; */
+    justify-content: center;
     display: flex;
     flex-direction: column;
+    /* width: 40%; */
+    align-items: flex-start;
 }
+span{
+    font-family: "Signika Negative" ,sans-serif;
+    color: grey;
+}
+    
 
 .se{
     display: flex;
@@ -69,6 +87,38 @@ a :hover{
 .leftsection{
     margin-left: 70px;
     display: flex;
+}
+
+.a2{
+    margin-left: 20px;
+    padding-left: 20px;
+}
+.es{
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(231, 70, 97);
+    margin-left: 4px;
+}
+.es img{
+    width: 26px;
+    padding: 13px;
+}
+#ee3{
+    font-family:"Signika Negative" ,sans-serif ;
+}
+#ee4{
+    font-family: "Signika Negative" ,sans-serif;
+    color: grey;
+}
+h4{
+    font-family:"Signika Negative" ,sans-serif ;
+}
+p{
+    font-family: "Signika Negative" ,sans-serif;
+    color: grey;
 }
 
 
@@ -145,10 +195,10 @@ a :hover{
    /* height: 730px; */
 
 }
-h4{
+.rere3{
     font-family:"Signika Negative" ,sans-serif ;
 }
-p{
+.erre{
     font-family: "Signika Negative" ,sans-serif;
     color: grey;
 }
@@ -164,13 +214,16 @@ h1{
     margin-left: 20px;
     margin-top: 30px;
 }
+.anse{
+    display: none;
+}
 
 
-@media screen and (max-width:1200px){
+@media screen and (max-width:1400px){
     
 .sec1 {
     height: 40vh;
-    width: 15vw;
+    width: 22vw;
     display: flex;
     flex-direction: column;
    
@@ -190,9 +243,16 @@ h1{
     overflow: scroll;
     
 }
+.serch{
+    display: none;
 }
 
-@media screen and (max-width:700px){
+.anse , #ee3 , #ee4{
+    display: flex;
+}
+}
+
+@media screen and (max-width:768px){
     
     .sec1 {
         height: 50vh;
@@ -217,12 +277,15 @@ h1{
         overflow: scroll;
         gap: 30px;
     }
+    .center , .urhome{
+        display: none;
     }
-    @media screen and (max-width:680px){
+    }
+    @media screen and (max-width:425px){
     
         .sec1 {
             height: 40vh;
-            width: 30vw;
+            width: 44vw;
             display: flex;
             flex-direction: column;
            
@@ -234,7 +297,7 @@ h1{
         }
         .pictures, .picture3{
             display: grid;
-           grid-template-columns: repeat(3,1fr);
+           grid-template-columns: repeat(2,1fr);
            margin: 20px;
         }
         .navsec3{
@@ -279,11 +342,11 @@ h1{
       
 
         }
-    @media screen and (max-width:275px){
+    @media screen and (max-width:320px){
     
         .sec1 {
-            height: 46vh;
-            width: 85vw;
+            height: 42vh;
+            width: 92vw;
             display: flex;
             flex-direction: column;
            
@@ -307,8 +370,6 @@ h1{
          .center ,.urhome{
             display: none;
          }
-      
-
         }
         
     
